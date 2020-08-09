@@ -1,8 +1,12 @@
+<?php
+require_once("config.php");
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>السكة للتوصيل</title>
+  <title><?php echo $config['Company_name']?></title>
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="favicon.ico">
@@ -81,7 +85,7 @@ body,body * {
               <path class="fill-primary" opacity=".7" d="M18,46L18,46C8,46,0,38,0,28v0c0-9.9,8-18,18-18h11.3c3.7,0,6.6,3,6.6,6.6V28C35.9,38,27.9,46,18,46z"/>
               <path class="fill-white" d="S"/>
             </svg>
-            <span class="u-header__navbar-brand-text"> السكة </span>
+            <span class="u-header__navbar-brand-text"><?php echo $config['Company_name']?></span>
           </a>
           <!-- End White Logo -->
 
@@ -201,7 +205,7 @@ body,body * {
     <!-- Content -->
     <div class="row w-100">
       <div class="col-lg-5">
-        <h1 class="display-4 font-size-md-down-5 mb-3">النهر للتوصيل</h1>
+        <h1 class="display-4 font-size-md-down-5 mb-3"><?php echo $config['Company_name']?> للتوصيل</h1>
         <p>
           نقدم لكم خدمتنا على مدار الساعة
           <span class="text-primary">
@@ -317,7 +321,7 @@ body,body * {
       <path class="fill-primary" opacity=".7" d="M18,46L18,46C8,46,0,38,0,28v0c0-9.9,8-18,18-18h11.3c3.7,0,6.6,3,6.6,6.6V28C35.9,38,27.9,46,18,46z"/>
       <path class="fill-white" d="M19.4,34V18.3h10.2v2.9h-6.4v3.4h4.8v2.9h-4.8V34H17.4"/>
     </svg>
-    <span class="brand brand-primary">السكة</span>
+    <span class="brand brand-primary"><?php echo $config['Company_name']?></span>
   </a>
   <!-- End Logo -->
 
