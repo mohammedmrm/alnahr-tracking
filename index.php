@@ -19,6 +19,9 @@ require_once("config.php");
   <link rel="stylesheet" href="assets/css/theme.css">
 
   <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+  <?php
+    echo $config['analytics'];
+  ?>
 <style>
 
 body,body * {
