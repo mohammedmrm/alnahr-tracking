@@ -297,8 +297,8 @@ require_once("config.php");
       <!-- Copyright -->
       <p class=" text-muted mb-0">ِالعنوان: <?php echo $config['Company_address']; ?></p>
       <p class=" text-muted mb-0">رقم الهاتف: <?php echo $config['Company_phone']; ?></p>
-      <p class=" text-muted mb-0">ايميل الشركه: <?php echo $config['Company_emial']; ?></p>
-      <p class="small text-muted mb-0">© السكة. 2019 جميع الحقوق محفوظة.</p>
+      <p class=" text-muted mb-0">ايميل الشركه: <?php echo ($config['Company_emial'] ? $config['Company_emial'] : 'NA'); ?></p>
+      <p class="small text-muted mb-0">© 2019 جميع الحقوق محفوظة.</p>
       <!-- End Copyright -->
     </footer>
   </div>
