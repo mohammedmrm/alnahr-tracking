@@ -298,7 +298,7 @@ require_once("config.php");
       <h3 class="text-white">Details of Support - الدعم الفني</h3>
       <p class="text-white">Please contact us on this information for needed details</p>
       <p class="text-white">للاتصال والحصول على اي معلومات, يرجى استخدام معلومات الاتصال التاليه</p>
-      <p class=" text-muted mb-0">ِالعنوان: <?php echo $config['Company_address']; ?></p>
+      <p class=" text-muted mb-0">ِالعنوان: <?php echo '00964' . $config['Company_address']; ?></p>
       <p class=" text-muted mb-0">رقم الهاتف: <?php echo $config['Company_phone']; ?></p>
       <p class=" text-muted mb-0">ايميل الشركه: <?php echo ($config['Company_emial'] ? $config['Company_emial'] : 'mohammed.mrmu@gmail.com'); ?></p>
       <p class="small text-muted mb-0">© 2019 جميع الحقوق محفوظة.</p>
