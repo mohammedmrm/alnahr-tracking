@@ -295,9 +295,12 @@ require_once("config.php");
       </ul>
       <!-- End List -->
       <!-- Copyright -->
+      <h3>Details of Support - الدعم الفني</h3>
+      <span>Please contact us on this information for needed details</span>
+      <span>للاتصال والحصول على اي معلومات, يرجى استخدام معلومات الاتصال التاليه</span>
       <p class=" text-muted mb-0">ِالعنوان: <?php echo $config['Company_address']; ?></p>
       <p class=" text-muted mb-0">رقم الهاتف: <?php echo $config['Company_phone']; ?></p>
-      <p class=" text-muted mb-0">ايميل الشركه: <?php echo ($config['Company_emial'] ? $config['Company_emial'] : 'NA'); ?></p>
+      <p class=" text-muted mb-0">ايميل الشركه: <?php echo ($config['Company_emial'] ? $config['Company_emial'] : 'mohammed.mrmu@gmail.com'); ?></p>
       <p class="small text-muted mb-0">© 2019 جميع الحقوق محفوظة.</p>
       <!-- End Copyright -->
     </footer>
